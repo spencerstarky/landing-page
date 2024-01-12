@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px 100px
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+h2 {
+    font: size 36px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+
+.section-hero {
+    display: flex;
+    justify-content:space-between; 
+    align-items: flex-end;
+    background-color: #1f2937;
+    padding: 100px;
+    padding-top: 50px;
+}
+
+.section-random {
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+    text-align: center;
+}
+
+.section-testimonial {
+    background-color:#e5e7eb;
+    font-size: 36px;
+    font-weight:  300px;
+    font-style: italic;
+    text-align: center;
+    padding: 100px;
+}
+
+#hero-text {
+    font-size: 18px;
+    color:#e5e7eb
+}
+
+.section-hero img {
+    height:250px;
+    margin-left: 300px;
+    padding-top: 100px;
+}
+
+a.logo{
+    margin-right: auto;
+    padding-left: 100px;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    width: 100px;
+    color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+    color:#e5e7eb
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    background-color: #1f2937;
+}
+
+.section-CTA {
+    padding: 100px;
+    background-color: #f3f3f3;
+    color:#e5e7eb
+}
+
+.CTA{
+    display:flex;
+    flex-direction:column;
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+#button {
+    border-color: #e5e7eb;
+    border-width: 4px;
+}
+
+h3 {
+    font-size: 36px;
+}
